@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+data/videos/*
+data/audio/*
+data/frames/*
+data/transcripts/*
+data/chunks/*
+data/index/*
+data/clips/*
+data/meta/*
+frontend/node_modules/
+frontend/dist/
