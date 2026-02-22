@@ -1,8 +1,17 @@
 # VisionVault
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116.x-009688)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Open-source **multimodal video search** (Video RAG / moments retrieval).
 
 Ingest a YouTube URL or a local MP4, extract speech + (optional) visual cues, embed chunks, store vectors (FAISS or Qdrant Cloud), and **semantic-search timestamped moments** in a modern web UI.
+
+> Screenshot/GIF: add yours at `assets/ui.png` and update the link below.
+
+![VisionVault UI](assets/ui.png)
 
 ## Features
 
@@ -170,3 +179,7 @@ The first run downloads ML models (Whisper / embedding model / reranker). Subseq
 
 - Never commit `.env` (it may contain API keys).
 - `.env.example` should contain placeholders only.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).
